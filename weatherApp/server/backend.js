@@ -33,6 +33,7 @@ fetch(apiUrl)
     })
 
     .then(data => {
+        // display weather on main app
             console.log(data);
         })
         .catch(error => {
